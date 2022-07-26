@@ -1,1 +1,19 @@
+version: "3.9"
 
+services:
+  omoponfhir:
+    image: elizabethshivers/cs6440oof54r4
+    environment:
+      - JDBC_URL: http://omop54:5432/
+      - JDBC_USERNAME: postgres
+      - JDBC_PASSWORD: password
+      - SERVERBASE_URL: http://localhost:8080/fhir
+  omop54:
+    image: elizabethshivers/omopcdm54postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=password
+      - CONSTRAINTS=false
+    volumes:
+      - ./vocab:/VOCAB
