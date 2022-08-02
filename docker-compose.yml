@@ -2,12 +2,22 @@ version: "3.9"
 
 services:
   omoponfhir:
-    image: elizabethshivers/cs6440oof54r4
+    image: elizabethshivers/omoponfhir
     environment:
-      - JDBC_URL: http://omop54:5432/
-      - JDBC_USERNAME: postgres
-      - JDBC_PASSWORD: password
-      - SERVERBASE_URL: http://localhost:8080/fhir
+      - JDBC_URL=jdbc:postgresql://omop54:5432/omop54
+      - JDBC_USERNAME=postgres
+      - JDBC_PASSWORD=password
+      - SERVERBASE_URL=http://localhost:8080/omoponfhir/fhir
+      - SMART_INTROSPECTURL=http://localhost:8080/smart/introspect
+      - SMART_AUTHSERVERURL=http://localhost:8080/smart/authorize
+      - SMART_TOKENSERVERURL=http://localhost:8080/smart/token
+      - AUTH_BEARER=12345
+      - AUTH_BASIC=client:secret
+      - FHIR_READONLY=False
+      - MEDICATION_TYPE=code
+    depends_on:
+      - omop54
+
   omop54:
     image: elizabethshivers/omopcdm54postgres
     ports:
