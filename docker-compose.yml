@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   omoponfhir:
-    image: elizabethshivers/omoponfhir:latest
+    image: gtcs6440/omoponfhir:latest
     ports:
       - "8080:8080"
     environment:
@@ -25,7 +25,7 @@ services:
         condition: on-failure
 
   omop54:
-    image: elizabethshivers/omopcdm54postgres:latest
+    image: gtcs6440/omopcdm54postgres:latest
     ports:
       - "5432:5432"
     environment:
