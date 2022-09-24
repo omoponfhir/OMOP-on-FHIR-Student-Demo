@@ -1,4 +1,4 @@
-# lab-5-starter
+# Lab-6-OMOPonFHIR
 
 Please see the Lab page on Canvas for more information. The following is only provided as a quick reference.
 
