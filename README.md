@@ -1,6 +1,6 @@
-# Lab-6-OMOPonFHIR
+# OMOP-on-FHIR DEMO
 
-Please see the Lab page on Canvas for more information. The following is only provided as a quick reference.
+For help with this demo, please reach out to Elizabeth.Shivers@gtri.gatech.edu.
 
 ## Step 1 - Download Athena Vocab
 Go to https://athena.ohdsi.org/search-terms/start. Go to Download.
