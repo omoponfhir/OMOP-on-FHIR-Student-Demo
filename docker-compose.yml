@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   omoponfhir:
-    image: gtcs6440/omoponfhir:latest
+    image: smartchartsuite/omoponfhir-main-v54-r4:0.1.0
     ports:
       - "8080:8080"
     environment:
