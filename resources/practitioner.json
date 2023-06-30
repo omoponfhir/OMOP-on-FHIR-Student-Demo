@@ -1,0 +1,40 @@
+{
+    "resourceType": "Practitioner",
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "9999999499"
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "family": "Kuvalis369",
+        "given": [
+          "Barry322"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "email",
+        "value": "Barry322.Kuvalis369@example.com",
+        "use": "work"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "67 & 100 TER HEUN DRIVE"
+        ],
+        "city": "FALMOUTH",
+        "state": "MA",
+        "postalCode": "02540",
+        "country": "US"
+      }
+    ],
+    "gender": "male"
+  }
