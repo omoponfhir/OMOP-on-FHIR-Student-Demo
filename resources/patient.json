@@ -1,0 +1,74 @@
+{
+    "resourceType": "Patient",
+    "id": "1",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+        ]
+    },
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Abdul218 <b>KEELING57 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>c754e34b-b690-424d-bf48-23418380b906</td></tr><tr><td>Address</td><td><span>868 Trantow Branch </span><br/><span>null </span><br/><span>Falmouth </span><span>MA </span></td></tr><tr><td>Date of birth</td><td><span>20 April 1911</span></td></tr></tbody></table></div>"
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+            "extension": [
+                {
+                    "url": "ombCategory",
+                    "valueCoding": {
+                        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+                        "code": "UNK",
+                        "display": "Unknown"
+                    }
+                },
+                {
+                    "url": "text",
+                    "valueString": "Unknown"
+                }
+            ]
+        }
+    ],
+    "identifier": [
+        {
+            "value": "c754e34b-b690-424d-bf48-23418380b906"
+        }
+    ],
+    "active": false,
+    "name": [
+        {
+            "family": "Keeling57",
+            "given": [
+                "Abdul218"
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "555-539-7338",
+            "use": "home"
+        }
+    ],
+    "gender": "male",
+    "birthDate": "1911-04-20",
+    "address": [
+        {
+            "use": "home",
+            "line": [
+                "868 Trantow Branch"
+            ],
+            "city": "Falmouth",
+            "state": "MA"
+        }
+    ],
+    "maritalStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+            }
+        ]
+    }
+}
