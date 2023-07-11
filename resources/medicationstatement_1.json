@@ -1,18 +1,15 @@
 {
     "resourceType" : "MedicationStatement",
     "status" : "entered-in-error",
-    "medication" : {
-      "concept" : {
+    "medicationCodeableConcept" : {
         "coding" : [{
           "system" : "http://snomed.info/sct",
           "code" : "27658006",
           "display" : "Amoxicillin (product)"
         }]
-      }
     },
     "subject" : {
       "reference" : "Patient/1"
     },
-    "effectiveDateTime" : "2014-01-23",
-    "dateAsserted" : "2015-02-22"
+    "effectiveDateTime" : "2014-01-23"
   }
