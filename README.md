@@ -1,6 +1,6 @@
 # OMOP-on-FHIR DEMO
 
-For help with this demo, please reach out to Elizabeth.Shivers@gtri.gatech.edu.
+If you are a student working with the Georgia Tech CS6440 course, for help with this demo please reach out to Elizabeth.Shivers@gtri.gatech.edu. If you are with another university or would like general OMOP on FHIR information, please email info@omoponfhir.com.
 
 *! Warning: The `/resources` folder contains in progress work to streamline loading Synthea transaction bundles. It is not currently functional and should be disregarded. !*
 
